@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X, BookOpen } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,9 +9,9 @@ const Header = () => {
 
   const navItems = [
     { path: '/', label: 'Home' },
-    { path: '/brand-power', label: 'Brand Power' },
-    { path: '/smart-ai', label: 'Smart AI' },
-    { path: '/seo-boost', label: 'SEO Boost' },
+    { path: '/your-business-online', label: 'Your Business Online' },
+    { path: '/ai-can-save-money', label: 'AI can save you money' },
+    { path: '/why-you-need-seo', label: 'Why you need SEO' },
   ];
 
   return (
@@ -20,10 +20,10 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="p-2 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg group-hover:scale-105 transition-transform">
-              <Zap className="h-5 w-5 text-white" />
+              <BookOpen className="h-5 w-5 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent">
-              DigitalGrowth
+              Digital Growth Blog
             </span>
           </Link>
 

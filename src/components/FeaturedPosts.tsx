@@ -7,33 +7,63 @@ const FeaturedPosts = () => {
   const posts = [
     {
       id: 1,
-      title: "How Sarah's Boutique Increased Sales by 300% Through Digital Branding",
-      excerpt: "A complete transformation story of how strategic digital identity helped a small boutique compete with major retailers.",
-      category: "Brand Power",
+      title: "5 Reasons Why Your Business Must Have an Online Presence in 2024",
+      excerpt: "In today's digital age, having an online presence isn't optional—it's essential for survival and growth. Discover why businesses without digital footprints are losing customers daily.",
+      category: "Your Business Online",
       author: "Digital Growth Team",
-      readTime: "5 min read",
-      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
-      link: "/brand-power"
+      readTime: "8 min read",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+      link: "/your-business-online"
     },
     {
       id: 2,
-      title: "The AI Revolution: Why Every Business Needs Smart Automation",
-      excerpt: "Discover how artificial intelligence is reshaping industries and why early adopters are seeing unprecedented growth.",
-      category: "Smart AI",
+      title: "How AI Automation Saved My Client $50,000 in Operating Costs",
+      excerpt: "A real case study of how implementing AI automation in customer service and data processing reduced operational expenses by 60% while improving service quality.",
+      category: "AI can save you money",
       author: "Digital Growth Team", 
-      readTime: "7 min read",
+      readTime: "12 min read",
       image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop",
-      link: "/smart-ai"
+      link: "/ai-can-save-money"
     },
     {
       id: 3,
-      title: "From Page 10 to #1: The Ultimate SEO Success Story",
-      excerpt: "Learn how a local service business climbed Google rankings and tripled their organic traffic in just 6 months.",
-      category: "SEO Boost",
+      title: "The Hidden Cost of Poor SEO: Why Your Competitors Are Winning",
+      excerpt: "Your competitors are getting the customers you should be getting. Learn how proper SEO implementation can transform your business visibility and revenue.",
+      category: "Why you need SEO",
       author: "Digital Growth Team",
-      readTime: "6 min read", 
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-      link: "/seo-boost"
+      readTime: "10 min read", 
+      image: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=800&h=600&fit=crop",
+      link: "/why-you-need-seo"
+    },
+    {
+      id: 4,
+      title: "From Zero to Digital Hero: Small Business Online Transformation",
+      excerpt: "How a local bakery increased their revenue by 300% by establishing a strong online presence and digital marketing strategy.",
+      category: "Your Business Online",
+      author: "Digital Growth Team",
+      readTime: "6 min read",
+      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
+      link: "/your-business-online"
+    },
+    {
+      id: 5,
+      title: "AI-Powered Customer Support: 24/7 Service Without 24/7 Costs",
+      excerpt: "Discover how businesses are using AI chatbots and automation to provide excellent customer service while reducing staffing costs by up to 70%.",
+      category: "AI can save you money",
+      author: "Digital Growth Team",
+      readTime: "9 min read",
+      image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=600&fit=crop",
+      link: "/ai-can-save-money"
+    },
+    {
+      id: 6,
+      title: "Local SEO Secrets: How to Dominate Your Local Market",
+      excerpt: "The step-by-step guide to optimizing your business for local search results and attracting customers in your area who are ready to buy.",
+      category: "Why you need SEO",
+      author: "Digital Growth Team",
+      readTime: "11 min read",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+      link: "/why-you-need-seo"
     }
   ];
 
@@ -42,10 +72,10 @@ const FeaturedPosts = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-            Latest Success Stories
+            Most Popular Articles
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Real businesses, real results. See how our strategies transform digital presence.
+            Insights and strategies that are transforming businesses worldwide
           </p>
         </div>
 
